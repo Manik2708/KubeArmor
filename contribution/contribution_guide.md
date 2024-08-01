@@ -37,7 +37,7 @@ To make a contribution, please follow the steps below.
 
 4. Check the changes
 
-   Please run "test_kubearmor.sh" before committing the changes
+   If you have changed the core code of KubeArmor then please run "test_kubearmor.sh" before committing the changes
 
    ```text
    cd KubeArmor/KubeArmor/build
@@ -45,6 +45,10 @@ To make a contribution, please follow the steps below.
    ```
 
    If you see any warnings or errors, please fix them first.
+
+   If some tests are failing, then fix them by following [Testing Guide](testing_guide.md)
+
+   If you have made changes in Operator or Controller, then follow [this](testing_operator_controller_guide.md)
 
 5. Commit changes
 
