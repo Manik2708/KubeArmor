@@ -11,7 +11,7 @@ $ cd KubeArmor/KubeArmor
                                            -logPath=[log file path]
                                            -enableKubeArmorPolicy=[true|false]
                                            -enableKubeArmorHostPolicy=[true|false]
-~/KubeArmor/tests$ make run
+~/KubeArmor/KubeArmor$ make run
 ```
 
 # 1.  Test KubeArmor manually
