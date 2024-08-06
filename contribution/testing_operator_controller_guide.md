@@ -41,7 +41,7 @@ You can skip this if kubearmor images (core and init) are already built!
 
 1. While testing, try to keep the enviornment clean, like removing all the previous images and deleting the `kubearmor` namespaces.
 
-2. These steps are for buidling both operator and controller but it may be possible that you just want to rebuild only one of them. Even in that case we recommend to rebuild both operator and controller to keep the process smooth.
+2. These steps are for building both operator and controller but it may be possible that you just want to rebuild only one of them.
 
 3. After building local operator and controller, run the automated `ginkgo tests` by following the steps from [Testing Guide](testing_guide)
 
