@@ -5,12 +5,6 @@ There are two ways to check the functionalities of KubeArmor: 1) testing KubeArm
 
 Although there are many ways to run a Kubernetes cluster (like minikube or kind) but it will not work with locally developed KubeArmor. KubeArmor needs to be on the same node as where the kubernetes nodes exist. If you will try to do this it will not identify your node since minikube and kind use virtualised node. You would either need to build your images and deploy them into these clusters or simply use `k3s` or `kubeadm`. if you are new to these terms then the most easiest way to do this is by following this guide: [K3s installation guide](k3s/README.md)
 ```text
-$ cd KubeArmor/KubeArmor
-~/KubeArmor/KubeArmor$ make clean && make
-~/KubeArmor/KubeArmor$ sudo -E ./kubearmor -gRPC=[gRPC port number]
-                                           -logPath=[log file path]
-                                           -enableKubeArmorPolicy=[true|false]
-                                           -enableKubeArmorHostPolicy=[true|false]
 ~/KubeArmor/KubeArmor$ make run
 ```
 
